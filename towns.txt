@@ -1,0 +1,565 @@
+Newark
+Jersey City
+Paterson
+Elizabeth
+Edison
+Woodbridge Township
+Lakewood Township
+Toms River
+Hamilton
+Trenton
+Clifton
+Camden
+Brick Township
+Cherry Hill
+Passaic
+Middletown Township
+Union City
+Old Bridge Township
+Gloucester Township
+East Orange
+Bayonne
+Franklin
+North Bergen
+Vineland
+Union
+Piscataway
+New Brunswick
+Jackson Township
+Wayne
+Irvington
+Parsippany-Troy Hills
+Howell Township
+Perth Amboy
+Hoboken
+Plainfield
+West New York
+Washington
+East Brunswick
+Bloomfield
+West Orange
+Evesham Township
+Bridgewater Township
+South Brunswick Township
+Egg Harbor Township
+Manchester Township
+Hackensack
+Sayreville
+Mount Laurel Township
+Berkeley Township
+North Brunswick
+Kearny
+Linden
+Marlboro Township
+Teaneck
+Atlantic City
+Winslow Township
+Monroe
+Manalapan Township
+Hillsborough Township
+Montclair
+Galloway Township
+Freehold Township
+Monroe
+Belleville
+Pennsauken Township
+Ewing Township
+Fort Lee
+Lawrence Township
+Fair Lawn
+Willingboro Township
+Long Branch
+Deptford Township
+Garfield
+Westfield
+Orange
+Livingston
+Voorhees Township
+Princeto [note 1 
+Millville
+Nutley
+Mount Olive Township
+Neptune Township
+Pemberton Township
+Lacey Township
+Rahway
+Ocean Township
+East Windsor Township
+West Windsor Township
+Englewood
+Bergenfield
+Bernards Township
+Stafford Township
+Hamilton Township
+Paramus
+Wall Township
+Mahwah
+West Milford
+Randolph
+Bridgeton
+Ridgewood
+Rockaway Township
+Lodi
+Vernon Township
+Maplewood
+Cliffside Park
+Scotch Plains
+South Plainfield
+Roxbury Township
+Medford
+Plainsboro Township
+Lower Township
+Carteret
+Cranford
+Burlington Township
+Morris Township
+Montgomery Township
+Raritan Township
+North Plainfield
+West Deptford Township
+Montville
+Summit
+Hillside
+Jefferson Township
+Roselle
+Barnegat Township
+Moorestown Township
+Lyndhurst
+Hazlet
+Pleasantville
+Millburn
+Little Egg Harbor Township
+Sparta Township
+Palisades Park
+Elmwood Park
+Maple Shade Township
+Middle Township
+Hawthorne
+Glassboro
+Washington Township
+Morristown
+Point Pleasant
+Aberdeen Township
+Dover
+Rutherford
+Tinton Falls
+Lindenwold
+Dumont
+Hopewell Township
+Delran Township
+Franklin Township
+Holmdel Township
+Wyckoff
+Denville
+New Milford
+Secaucus
+South Orange
+Readington Township
+Asbury Park
+South River
+Madison
+Springfield
+Cinnaminson Township
+Pequannock Township
+North Arlington
+Warren Township
+Mantua Township
+Hopatcong
+Phillipsburg
+Hammonton
+Clark
+Haddon Township
+Tenafly
+Ramsey
+Branchburg
+Little Falls
+Highland Park
+Collingswood
+Fairview
+Hanover Township
+Saddle Brook
+Robbinsville Township
+Middlesex
+Harrison
+Metuchen
+Clinton Township
+Pennsville Township
+Verona
+Roselle Park
+Berkeley Heights
+Oakland
+Ridgefield Park
+Eatontown
+Lumberton Township
+Weehawken
+Harrison Township
+Cedar Grove
+Upper Township
+Ringwood
+Red Bank
+New Providence
+Florence Township
+Somerville
+Freehold Borough
+Hasbrouck Heights
+Woodland Park
+Ocean City
+Florham Park
+Glen Rock
+Haddonfield
+Bellmawr
+Edgewater
+Gloucester City
+Bordentown Township
+Wantage Township
+River Edge
+Wallington
+Guttenberg
+East Hanover
+Wanaque
+Pompton Lakes
+Beachwood
+Ridgefield
+Westwood
+Totowa
+Somers Point
+West Caldwell
+Ventnor City
+Waterford Township
+Little Ferry
+Franklin Lakes
+Millstone Township
+Lincoln Park
+Southampton Township
+Chatham Township
+Bound Brook
+Manville
+Kinnelon
+Pine Hill
+Hillsdale
+Woolwich Township
+Woodbury
+Colts Neck Township
+Keansburg
+Burlington
+Hackettstown
+River Vale
+Waldwick
+East Greenwich Township
+Maywood
+Mount Holly Township
+Brigantine
+Pittsgrove Township
+Washington Township
+Pitman
+Chatham Borough
+Leonia
+East Rutherford
+Edgewater Park Township
+Audubon
+Westampton Township
+Matawan
+Long Hill Township
+Park Ridge
+South Amboy
+Northfield
+Cresskill
+Mansfield Township
+Runnemede
+Plumsted Township
+North Haledon
+Absecon
+Closter
+Byram Township
+Boonton
+Ocean Township
+Haledon
+Spotswood
+Hardyston Township
+Upper Saddle River
+Bogota
+Clayton
+Bedminster
+West Long Branch
+Riverside Township
+Carneys Point Township
+Lopatcong Township
+Newton
+Oradell
+Maurice River Township
+Kenilworth
+Montvale
+Chester Township
+Caldwell
+Mansfield Township
+Bernardsville
+Chesterfield Township
+North Hanover Township
+Upper Deerfield Township
+Bloomingdale
+Wood-Ridge
+Berlin
+Buena Vista Township
+Butler
+Glen Ridge Borough
+Haddon Heights
+Fairfield
+Emerson
+Palmyra
+New Hanover Township
+Fanwood
+Keyport
+Dunellen
+Green Brook Township
+Midland Park
+Rumson
+Linwood
+Stratford
+Barrington
+Tabernacle Township
+Upper Freehold Township
+Milltown
+Raritan
+Mountainside
+Washington Township
+Lebanon Township
+Wharton
+Allendale
+Shamong Township
+Dennis Township
+Washington
+Rockaway
+Margate City
+Andover Township
+Fairfield Township
+Union Beach
+North Caldwell
+Mullica Township
+Carlstadt
+Fair Haven
+Hainesport Township
+Paulsboro
+Eastampton Township
+Logan Township
+Tewksbury Township
+Blairstown
+Little Silver
+Jamesburg
+Union Township
+Manasquan
+Mendham Township
+Prospect Park
+Oceanport
+Roseland
+Watchung
+Belmar
+Old Tappan
+Woodcliff Lake
+Greenwich Township
+Norwood
+Independence Township
+Frankford Township
+Morris Plains
+Rochelle Park
+Hightstown
+Berlin Township
+Wildwood
+Holland Township
+Englewood Cliffs
+Hampton Township
+Commercial Township
+Somerdale
+Penns Grove
+Salem
+Mount Arlington
+Franklin
+Highlands
+Clementon
+Mendham Borough
+Alexandria Township
+Greenwich Township
+White Township
+Demarest
+Neptune City
+Brielle
+Spring Lake Heights
+Mount Ephraim
+Point Pleasant Beach
+Harrington Park
+Northvale
+Buena
+Flemington
+Hopewell Township
+Delaware Township
+South Bound Brook
+Atlantic Highlands
+Magnolia
+Allamuchy Township
+Bradley Beach
+Westville
+Delanco Township
+Boonton Township
+Egg Harbor City
+Garwood
+Elk Township
+Mountain Lakes
+Medford Lakes
+Stillwater Township
+Ho-Ho-Kus
+North Wildwood
+Oaklyn
+Pilesgrove Township
+East Amwell Township
+Bethlehem Township
+Bordentown
+Lambertville
+Cranbury
+Montague Township
+Kingwood Township
+West Amwell Township
+Harding Township
+Merchantville
+Shrewsbury
+South Toms River
+Mine Hill Township
+High Bridge
+Stanhope
+Cape May
+Green Township
+Riverdale
+Upper Pittsgrove Township
+Woodstown
+Alloway Township
+Fredon Township
+Springfield Township
+Haworth
+Tuckerton
+Pohatcong Township
+Lawrence Township
+Monmouth Beach
+Hamburg
+Wildwood Crest
+Netcong
+Franklin
+Franklin
+South Harrison Township
+Saddle River
+Deerfield Township
+Knowlton Township
+Woodbury Heights
+Long Beach Township
+National Park
+Spring Lake
+Woodlynne
+Lawnside
+Liberty Township
+Seaside Heights
+Riverton
+Clinton
+Weymouth Township
+Moonachie
+Belvidere
+Harmony Township
+Quinton Township
+Lakehurst
+Pennington
+Swedesboro
+Peapack-Gladstone
+Beverly
+Lafayette Township
+Oxford Township
+Woodbine
+Ogdensburg
+East Newark
+South Hackensack
+Alpha
+Wenonah
+Gibbsboro
+Frelinghuysen Township
+Helmetta
+Sussex
+Pine Beach
+Sea Isle City
+Essex Fells
+Ocean Gate
+Sandyston Township
+Brooklawn
+Hope Township
+Hopewell
+Laurel Springs
+Avon-by-the-Sea
+Folsom
+Lavallette
+Alpine
+Englishtown
+Allentown
+Sea Girt
+Mannington Township
+Woodland Township
+Oldmans Township
+Lower Alloways Creek Township
+Lake Como
+Estell Manor
+Glen Gardner
+Hardwick Township
+Island Heights
+Chester Borough
+Chesilhurst
+Eagleswood Township
+Downe Township
+Seaside Park
+Newfield
+Victory Gardens
+Winfield Township
+Bass River Township
+Stow Creek Township
+Sea Bright
+Pemberton
+Hampton
+Elmer
+Frenchtown
+Lebanon
+Avalon
+Farmingdale
+Milford
+Surf City
+Beach Haven
+Ship Bottom
+Shrewsbury Township
+Port Republic
+Califon
+Elsinboro Township
+West Cape May
+Audubon Park
+Bay Head
+Far Hills
+Longport
+Roosevelt
+Bloomsbury
+Hi-Nella
+Stone Harbor
+Branchville
+Interlaken
+Greenwich
+Wrightstown
+Deal
+Washington
+Rocky Hill
+Andover
+West Wildwood
+Barnegat Light
+Fieldsboro
+Stockton
+Rockleigh
+Shiloh
+Allenhurst
+Corbin City
+Millstone
+Harvey Cedars
+Mantoloking
+Cape May Point
+Loch Arbour
+Teterboro
+Walpack Township
+Pine Valley
+Tavistock
