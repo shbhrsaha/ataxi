@@ -1,4 +1,4 @@
 *.pyc
 .DS_Store
-files_otrip/*
+files_nn/*
 files_phonebook/*

@@ -11,7 +11,7 @@ import logging
 
 from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Text, Float
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, backref
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
@@ -37,6 +37,7 @@ class Phonebook(Base):
     zip_code = Column(String(250), nullable=False)
     name = Column(String(250), nullable=False)
     phone = Column(String(250), nullable=False)
+    used = Column(Boolean, nullable=False)
 
 class Zipcodes(Base):
     __tablename__ = 'zipcodes'

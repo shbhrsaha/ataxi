@@ -18,3 +18,5 @@ Source File Descriptions
 - config.py -- Usually imported in every script. Loads the config file and connects to the database.
 - phonebook_download.py -- Downloads name data from the phonebook, going down the names file and repeating for each town.
 - phonebook_import.py -- Imports the downloaded name data to the database
+- nn_download.py -- Downloads NN files from project webpage
+- zipcode_import.py -- Imports zip code data from CSV file into database
