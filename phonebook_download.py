@@ -36,37 +36,40 @@ class Worker(threading.Thread):
   
     def run(self):
         while True:
-            logging.info("%s : Waiting for surname"  % self.getName())
-            surname = self.queue.get()
+            try:
+                logging.info("%s : Waiting for surname"  % self.getName())
+                surname = self.queue.get()
 
-            row_data = []
+                row_data = []
 
-            for j, town in enumerate(towns):
-                logging.info("%s : %s \t #%s \t %s"  % (self.getName(), surname, j, town))
+                for j, town in enumerate(towns):
+                    logging.info("%s : %s \t #%s \t %s"  % (self.getName(), surname, j, town))
+                    
+                    url = "http://yellowbook.intelius.com/results.php?ReportType=34&refer=2464&adword=RP&qar=off&qc=%s&qdma=off&qi=0&qk=6&qn=%s&qs=NJ" % (town, surname)
+
+                    try:
+                        html = unicode(download(url), "latin-1").encode('ascii', 'replace')
+                    except KeyboardInterrupt:
+                        sys.exit()
+                    except:
+                        logging.info("Failed.")
+                        continue
+
+                    dom = DOM(html)
+
+                    for result in dom('div.cobrand_wp_multiresult_record'):
+                        name = plaintext(result('div.cobrand_wp_multiresult_record_name:first-child')[0].content)
+                        addr = plaintext(result('div.cobrand_wp_multiresult_record_address')[0].content).replace("\n"," ")
+                        phone = plaintext(result('div.cobrand_wp_multiresult_record_phone')[0].content)
+
+                        row_data.append({"name" : name, "addr" : addr, "phone" : phone})
+
+                df = pd.DataFrame(row_data)
+                df.to_csv("%s%s.csv" % (OUTPUT_FOLDER,surname), index = False)
                 
-                url = "http://yellowbook.intelius.com/results.php?ReportType=34&refer=2464&adword=RP&qar=off&qc=%s&qdma=off&qi=0&qk=6&qn=%s&qs=NJ" % (town, surname)
-
-                try:
-                    html = unicode(download(url), "latin-1").encode('ascii', 'replace')
-                except KeyboardInterrupt:
-                    sys.exit()
-                except:
-                    logging.info("Failed.")
-                    continue
-
-                dom = DOM(html)
-
-                for result in dom('div.cobrand_wp_multiresult_record'):
-                    name = plaintext(result('div.cobrand_wp_multiresult_record_name:first-child')[0].content)
-                    addr = plaintext(result('div.cobrand_wp_multiresult_record_address')[0].content).replace("\n"," ")
-                    phone = plaintext(result('div.cobrand_wp_multiresult_record_phone')[0].content)
-
-                    row_data.append({"name" : name, "addr" : addr, "phone" : phone})
-
-            df = pd.DataFrame(row_data)
-            df.to_csv("%s%s.csv" % (OUTPUT_FOLDER,surname), index = False)
-            
-            logging.info("%s : Processing surname %s complete"  % (self.getName(), surname))
+                logging.info("%s : Processing surname %s complete"  % (self.getName(), surname))
+            except:
+                pass
 
 if __name__ == "__main__":
     """
@@ -78,5 +81,15 @@ if __name__ == "__main__":
         t.setDaemon(True)
         t.start()
 
+    try:
+        skip = int(sys.argv[1])
+    except:
+        skip = 0
+
     for i, surname in enumerate(surnames):
+
+        if skip > 0:
+            skip -= 1
+            continue
+
         queue.put(surname, block=True)
