@@ -7,6 +7,7 @@
     565 towns from http://en.wikipedia.org/wiki/List_of_municipalities_in_New_Jersey
 """
 
+import os
 import sys
 import Queue
 import threading
@@ -76,6 +77,7 @@ if __name__ == "__main__":
         Manage all the threads and 
         add tasks to the queue, as necessary
     """
+
     for i in range(3):
         t = Worker(queue)
         t.setDaemon(True)
@@ -86,10 +88,15 @@ if __name__ == "__main__":
     except:
         skip = 0
 
+    already_done = [x.replace(".csv","") for x in os.listdir(OUTPUT_FOLDER)]
+
     for i, surname in enumerate(surnames):
 
         if skip > 0:
             skip -= 1
+            continue
+
+        if surname in already_done:
             continue
 
         queue.put(surname, block=True)
