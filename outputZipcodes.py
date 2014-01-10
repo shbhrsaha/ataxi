@@ -1,9 +1,4 @@
-'''
-Created on Oct 8, 2013
-COS 455, HW 1, Problem 5.1 "Fetching Sequences with BioPython"
 
-@author: John
-'''
 import os, re, sys, csv, numpy, scipy.spatial
 
 ''' for each line in input file, create output file using first entry,
